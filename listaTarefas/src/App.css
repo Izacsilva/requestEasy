@@ -21,6 +21,29 @@ body {
   font-size: 1.6rem;
   
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  
+  background-image: url("./assets/imgs/bg.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.app {
+  max-width: 60.0rem;
+  margin: 5.8rem auto 30rem;
+  background: #efefef;
+  padding: 20px 30px;
+  border-radius: 0.8rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.8rem;
+}
+
+p:first-child {
+  margin-bottom: 0.8rem;
+}
+
+button {
+  padding: 0.2rem 0.6rem;
 }
