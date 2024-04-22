@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Todo() {
+const Todo = ({ todo }) => {
   return (
     <>
       <div className='todo'>
@@ -9,8 +9,8 @@ function Todo() {
               <p className='category'>({todo.category})</p>
               </div>
               <div>
-                <button>completar</button>
-                <button>X</button>
+                <button className='complete'>completar</button>
+                <button className='remove'>X</button>
               </div>
         </div>
     </>

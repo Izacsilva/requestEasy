@@ -45,5 +45,41 @@ p:first-child {
 }
 
 button {
-  padding: 0.2rem 0.6rem;
+  padding: 0.6rem 1.2rem;
+  background: #333974;
+  color: #fff;
+  border-radius: .4rem;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+  border: none;
+  font-weight: 600;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.complete {
+  background: #5cb85c;
+}
+
+.remove {
+  background: #b33a62;
+}
+
+h2 {
+  margin: 1.8rem 0;
+}
+
+.todo-form {
+  padding-bottom: 1.8rem;
+}
+
+input, select {
+  padding: 0.8rem;
+  margin-bottom: 1.2rem;
+  border: 1px solid #ddd;
+  border-radius: .4rem;
+  width: 100%;
 }
