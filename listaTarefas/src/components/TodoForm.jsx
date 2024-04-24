@@ -5,11 +5,14 @@ function TodoForm() {
   const [value, setValue] = useState("");
   const [category, setCategory] = useState("");
 
+
+  // tratar o evento de envio de dados pelo formulário. cada vez que o botão é clicado para 
+  // enviar algum dado.
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    // caso não tenha valores(os inputs estejam vazios, nada é acionado(executado)).
     if(!value || !category) return;
-
 
     setValue("");
     setCategory("");
